@@ -1,0 +1,56 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+    body{
+			margin: 0;
+			padding: 20px;
+			text-align: center;
+			font-family: sans-serif #000000;
+			background-image: url("gear.jpeg");
+			width:100%;
+			min-height: 100vh;
+			margin-bottom:20px;
+		}
+		div{
+			width: 600px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: #fff;
+			transform: translate(-50%, -50%);
+			padding: 70px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px #808080;
+		}
+    h2{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom:40px;
+		}
+		h3{
+		  font-size: 40px;
+			font-weight: 700;
+			margin-bottom:40px;
+
+		}
+		.text{
+			text-align: left;
+			margin-left: 160px;
+		}
+		#btn{
+				font-family: inherit;
+				margin-top: 10px;
+				border: none;
+				color: #fff;
+				background-image: linear-gradient( #808080, #808080, #808080);
+				width: 150px;
+				padding: 10px;
+				border-radius: 30px;
+				outline: none;
+				cursor: pointer;
+			}
+			#btn:hover{
+				box-shadow: 1px 1px 10px  #808080;
+			}

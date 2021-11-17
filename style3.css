@@ -1,0 +1,73 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+		body{
+			margin: 0;
+			padding: 0;
+			text-align: center;
+			font-family: sans-serif;
+			background-image: url("clouds.jpg");
+			min-height: 100vh;
+		}
+		div{
+			width: 600px;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			background-color: #fff;
+			transform: translate(-50%, -50%);
+			padding: 70px;
+			border-radius: 10px;
+			box-shadow: 1px 1px 20px #0000ff;
+		}
+		h2{
+			font-size: 40px;
+			font-weight: 700;
+			margin-bottom:40px;
+		}
+		.text{
+			text-align: left;
+			margin-left: 160px;
+		}
+		#w, #h{
+			color: #222f3e;
+			text-align: left;
+			font-size: 20px;
+			font-weight: 200;
+			outline: none;
+			border: none;
+			background: none;
+			border-bottom: 1px solid #341f97;
+			width: 200px;
+			margin-bottom:10px;
+		}
+			#w:focus, #h:focus{
+				border-bottom: 2px solid #341f97;
+				width: 300px;
+				transition: 0.5s;
+			}
+			#result{
+				color: #341f97;
+			}
+			#btn{
+				font-family: inherit;
+				margin-top: 10px;
+				border: none;
+				color: #fff;
+				background-image: linear-gradient(#00ffff,#00bfff, #0080ff);
+				width: 150px;
+				padding: 10px;
+				border-radius: 30px;
+				outline: none;
+				cursor: pointer;
+			}
+			#btn:hover{
+				box-shadow: 1px 1px 10px #0000ff;
+			}
+			#info{
+			  margin-top:20px;
+				font-size: 12px;
+				font-family: inherit;
+			}
